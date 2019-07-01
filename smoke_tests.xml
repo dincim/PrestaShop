@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke test">
+	<test name="Smoke test using chrome">
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+			<class name="com.prestashop.tests.login.PositiveSignInTests"/>
+			<class name="com.prestashop.tests.checkout.SimpleCheckOutTest"/>
+		</classes>
+
+	</test>
+	<test name="Smoke test using firefox">
+		<parameter name="browser" value="firefox"></parameter>
+
+		<classes>
+			<class name="com.prestashop.tests.login.PositiveSignInTests"/>
+			<class name="com.prestashop.tests.checkout.SimpleCheckOutTest"/>
+		</classes>
+
+	</test>
+</suite>

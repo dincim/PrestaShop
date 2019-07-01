@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [All Test Cases]">
+  <test name="Smoke Test(failed)">
+    <classes>
+      <class name="com.prestashop.tests.login.PositiveSignInTests">
+        <methods>
+          <include name="rightCredentialsTest"/>
+          <include name="setUpTests"/>
+          <include name="createUsers"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.login.PositiveSignInTests -->
+      <class name="com.prestashop.tests.login.NegativeSignInTests">
+        <methods>
+          <include name="noEmailTest"/>
+          <include name="setUpTests"/>
+          <include name="invalidEmail"/>
+          <include name="closeTest"/>
+          <include name="noPasswordTest"/>
+          <include name="invalidPassword"/>
+          <include name="wrongCredentialsTest"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.login.NegativeSignInTests -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+  <test name="Integration Test(failed)">
+    <classes>
+      <class name="com.prestashop.tests.login.PositiveSignInTests">
+        <methods>
+          <include name="rightCredentialsTest"/>
+          <include name="setUpTests"/>
+          <include name="createUsers"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.login.PositiveSignInTests -->
+      <class name="com.prestashop.tests.login.NegativeSignInTests">
+        <methods>
+          <include name="noEmailTest"/>
+          <include name="setUpTests"/>
+          <include name="invalidEmail"/>
+          <include name="closeTest"/>
+          <include name="noPasswordTest"/>
+          <include name="invalidPassword"/>
+          <include name="wrongCredentialsTest"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.login.NegativeSignInTests -->
+    </classes>
+  </test> <!-- Integration Test(failed) -->
+</suite> <!-- Failed suite [All Test Cases] -->

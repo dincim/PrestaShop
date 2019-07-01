@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test Cases">
+	<test name="Smoke Test">
+		<packages>
+			<package name="com.prestashop.tests.login" />
+			<package name="com.prestashop.tests.login" />
+		</packages>
+	</test>
+	<test name="Integration Test">
+		<packages>
+			<package name="com.prestashop.tests.login" />
+			<package name="com.prestashop.tests.login" />
+		</packages>
+	</test>
+</suite>

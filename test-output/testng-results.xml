@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+    <groups>
+      <group name="smoketest">
+        <method signature="NegativeSignInTests.wrongCredentialsTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="wrongCredentialsTest" class="com.prestashop.tests.login.NegativeSignInTests"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test name="Default test" duration-ms="50" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+      <class name="com.prestashop.tests.login.NegativeSignInTests">
+        <test-method status="FAIL" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="setUpTests" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="SKIP" signature="invalidEmail()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="invalidEmail" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="SKIP" signature="closeTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="closeTest" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="SKIP" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="setUpTests" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="SKIP" signature="invalidPassword()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="invalidPassword" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="SKIP" signature="closeTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="closeTest" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="SKIP" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="setUpTests" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="SKIP" signature="noEmailTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="noEmailTest" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noEmailTest -->
+        <test-method status="SKIP" signature="closeTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="closeTest" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="SKIP" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="setUpTests" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="SKIP" signature="noPasswordTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="noPasswordTest" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPasswordTest -->
+        <test-method status="SKIP" signature="closeTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="closeTest" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="SKIP" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="setUpTests" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="SKIP" signature="wrongCredentialsTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="wrongCredentialsTest" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUpTests but has not been marked @Optional or defined
+in /private/var/folders/v4/09rnf2q12475959wtb96zvcm0000gn/T/testng-eclipse-724590386/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredentialsTest -->
+        <test-method status="SKIP" signature="closeTest()[pri:0, instance:com.prestashop.tests.login.NegativeSignInTests@5c7fa833]" name="closeTest" is-config="true" duration-ms="0" started-at="2018-03-19T17:21:19Z" finished-at="2018-03-19T17:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.prestashop.tests.login.NegativeSignInTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
